@@ -320,10 +320,11 @@ export function Enricher({ maxRows, maxFileBytes, mockMode, serverHasKey }: Enri
             <TruckIcon size={28} />
           </div>
           <div className="brand-text">
-            <span className="brand-text__eyebrow">OP Trucking</span>
-            <span className="brand-text__name">FMCSA Lead Desk</span>
+            <span className="brand-text__eyebrow">GoshBuzz</span>
+            <span className="brand-text__name">Free Trucking Leads</span>
           </div>
           <div className="masthead__spacer" />
+          <a href="/" style={{ color: "white", marginRight: 16 }}>Home</a>
           <span className="pill">
             {busy ? <span className="dot-live" /> : batchIncomplete ? <AlertIcon size={13} /> : <CheckIcon size={13} />}
             {busy ? 'Working' : batchIncomplete ? `Incomplete (${retryRows.length} pending)` : phase === 'done' ? 'Complete' : 'Ready'}

@@ -1,0 +1,11 @@
+# Free Trucking Leads by GoshBuzz
+
+> A tool to search US motor carrier and insurance records from public FMCSA and US Department of Transportation sources.
+
+- Home: https://freetruckingleads.goshbuzz.com/
+- Lead search and CSV enrichment: https://freetruckingleads.goshbuzz.com/tool
+- GoshBuzz: https://goshbuzz.com/
+
+Search filters include dates, states, operations and cargo. Carrier contact and insurance fields depend on availability in the source records and should be independently verified. The tool is not affiliated with FMCSA.
+
+Planned pricing: 200 free leads per month, $5 per month for 5,000 leads, and $10 per month for unlimited leads. Paid checkout, accounts and plan limits are not live yet.
