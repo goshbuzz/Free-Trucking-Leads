@@ -1,11 +1,12 @@
 'use client';
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import Image from 'next/image';
 import { FileDrop } from './fileDrop';
 import { PreviewLeads } from './previewLeads';
 import { ResultsTable } from './resultsTable';
 import { RowDetail } from './rowDetail';
-import { AlertIcon, CheckIcon, DownloadIcon, InfoIcon, RefreshIcon, ShieldIcon, TruckIcon } from './icons';
+import { AlertIcon, CheckIcon, DownloadIcon, InfoIcon, RefreshIcon, ShieldIcon } from './icons';
 import { buildCsv, exportFilename, REQUIRED_COLUMNS, statusLabel, summarise } from '@/lib/export';
 import { findDotColumn, hasDocketColumn, parseCsv } from '@/lib/csv';
 import { parseDot } from '@/lib/normalize';
@@ -317,7 +318,7 @@ export function Enricher({ maxRows, maxFileBytes, mockMode, serverHasKey }: Enri
       <header className="masthead">
         <div className="masthead__inner">
           <div className="brand-mark">
-            <TruckIcon size={28} />
+            <Image src="/logo-192.png" alt="" width={46} height={46} priority />
           </div>
           <div className="brand-text">
             <span className="brand-text__eyebrow">GoshBuzz</span>
